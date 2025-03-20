@@ -55,10 +55,10 @@ class ScrabbleTournament:
         move.play(board, player_number)
 
 import scrabble_bot_mk_2
-import scrabble_bot_mk_3
+import scrabble_bot_mk_1
 
 
 if __name__ == '__main__':
     players = [scrabble_bot_mk_2.ScrabbleBot(),
-               scrabble_bot_mk_3.ScrabbleBot()]
+               scrabble_bot_mk_1.ScrabbleBot()]
     ScrabbleTournament(players).run()

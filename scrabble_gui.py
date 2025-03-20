@@ -6,7 +6,7 @@ from incrementalist import Incrementalist
 from location import *
 from board import *
 from enum import Enum
-from scrabble_bot_mk_3 import ScrabbleBot
+from scrabble_bot_mk_1 import ScrabbleBot
 
 
 def rgb_to_hex(r, g, b):

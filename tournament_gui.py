@@ -7,7 +7,7 @@ from location import *
 from board import *
 from enum import Enum
 import scrabble_bot_mk_2
-import scrabble_bot_mk_3
+import scrabble_bot_mk_1
 
 
 
@@ -382,6 +382,6 @@ class ScrabbleTournament:
 
 
 if __name__ == '__main__':
-    players = [scrabble_bot_mk_3.ScrabbleBot(),
+    players = [scrabble_bot_mk_1.ScrabbleBot(),
                scrabble_bot_mk_2.ScrabbleBot()]
     ScrabbleTournament(players).run()
